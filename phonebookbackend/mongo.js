@@ -12,7 +12,7 @@ const phonename = process.argv[3]
 const phonenumber = process.argv[4]
 
 const url =
-  `mongodb+srv://fullstack:hullu111@phonebook.rpxsc.mongodb.net/persons?retryWrites=true&w=majority`
+  `mongodb+srv://fullstack:<password>@phonebook.rpxsc.mongodb.net/persons?retryWrites=true&w=majority`
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
 
